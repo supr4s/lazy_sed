@@ -27,4 +27,10 @@ Print every lines matching $1
 sed '/'$1'/!d'
 ```
 
+Basic substitution - replace toto with tata
+
+```
+sed 's/toto/tata/g' file.txt
+```
+
 To be continued ...
