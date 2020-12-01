@@ -21,3 +21,10 @@ Transform URL in FQDN
 ```
 sed 's/https\?:\/\///'
 ```
+Print every lines matching $1
+
+```
+sed '/'$1'/!d'
+```
+
+To be continued ...
