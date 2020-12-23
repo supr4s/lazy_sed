@@ -33,4 +33,10 @@ Basic substitution - replace toto with tata
 sed 's/toto/tata/g' file.txt
 ```
 
+Deleting lines with multiples patterns
+
+```
+sed -e '/pattern1/d ; /pattern2/d ; /pattern3/d ; /pattern4/d' ./my_files.txt
+```
+
 To be continued ...
