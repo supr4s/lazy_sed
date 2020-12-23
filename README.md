@@ -36,7 +36,7 @@ sed 's/toto/tata/g' file.txt
 Deleting lines with multiples patterns
 
 ```
-sed -e '/pattern1/d ; /pattern2/d ; /pattern3/d ; /pattern4/d' ./my_files.txt
+sed -e '/pattern1/d ; /pattern2/d ; /pattern3/d ; /pattern4/d'
 ```
 
 To be continued ...
