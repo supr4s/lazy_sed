@@ -39,4 +39,10 @@ Deleting lines with multiples patterns
 sed -e '/pattern1/d ; /pattern2/d ; /pattern3/d ; /pattern4/d'
 ```
 
+Print lines who matching simple/multiples patterns
+
+```
+sed -nr '/pattern1|pattern2/p'
+```
+
 To be continued ...
