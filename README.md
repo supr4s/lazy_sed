@@ -44,5 +44,11 @@ Print lines who matching simple/multiples patterns
 ```
 sed -nr '/pattern1|pattern2/p'
 ```
+Delete first 65 lines
+
+```
+sed -i '1,65d' files.txt
+```
+
 
 To be continued ...
