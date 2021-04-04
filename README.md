@@ -50,5 +50,10 @@ Delete first 65 lines
 sed -i '1,65d' files.txt
 ```
 
+Remove first char line only if it's a comma
+
+```
+sed 's/^,//'
+```
 
 To be continued ...
