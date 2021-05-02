@@ -1,5 +1,3 @@
-Tired of googling every sed command I make
-
 Delete last character
 
 ```
