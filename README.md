@@ -56,4 +56,10 @@ Remove first char line only if it's a comma
 sed 's/^,//'
 ```
 
+Uncomment line that contains a specific pattern
+
+```
+sed -e '/^#.*MYPATTERN/s/^#//' file.txt
+```
+
 To be continued ...
