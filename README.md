@@ -61,5 +61,10 @@ Uncomment line that contains a specific pattern
 ```
 sed -e '/^#.*MYPATTERN/s/^#//' file.txt
 ```
+Extract substring between two patterns
+
+```
+sed -e 's/MyPattern1\(.*\)MyPattern2/\1/'
+```
 
 To be continued ...
