@@ -1,3 +1,15 @@
+Delete first character
+
+```
+sed -r 's/^.{1}//'
+```
+
+Delete first two characters
+
+```
+sed -r 's/^.{2}//'
+```
+
 Delete last character
 
 ```
