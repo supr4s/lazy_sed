@@ -79,4 +79,11 @@ Extract substring between two patterns
 sed -e 's/MyPattern1\(.*\)MyPattern2/\1/'
 ```
 
+(not sed) add pattern at the beginning of each line
+
+```
+awk '{print "http://" $0}'
+```
+
+
 To be continued ...
